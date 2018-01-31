@@ -15,4 +15,8 @@ module ApplicationHelper
       content_tag(:p, greeting, class: "source-greeting")
     end
   end
+
+  def copyright_generator
+    CashmanViewTool::Renderer.copyright 'Andrew Cashman', 'All rights reserved'
+  end
 end

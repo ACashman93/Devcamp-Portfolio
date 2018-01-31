@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/ACashman93/cashman_view_tool
+  revision: f02798c1565265bfe24496f86a68cf027d1e46ed
+  specs:
+    cashman_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -192,6 +198,7 @@ PLATFORMS
 DEPENDENCIES
   bootstrap (~> 4.0.0)
   byebug
+  cashman_view_tool!
   coffee-rails (~> 4.2)
   devise (~> 4.4, >= 4.4.1)
   friendly_id (~> 5.2, >= 5.2.3)
