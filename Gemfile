@@ -56,4 +56,4 @@ gem 'devise', '~> 4.4', '>= 4.4.1'
 gem 'bootstrap', '~> 4.0.0'
 gem 'jquery-rails'
 
-gem 'cashman_view_tool', git: 'https://github.com/ACashman93/cashman_view_tool'
+gem 'cashman_view_tool', '~> 0.1.0'
