@@ -1,7 +1,7 @@
 <%= form_for(@portfolio_item) do |f| %>
   <% if @portfolio_item.errors.any? %>
     <% @portfolio_item.errors.full_messages.each do |error| %>
-      <%= js add_gritter(error, title: "Andrew Cashman Portfolio", sticky: false, time:3500) %>
+      <%= alert_generator error %>
     <% end %>
   <% end %>
 
@@ -18,13 +18,13 @@
       </div>
 
       <div class="form-group">
-        <label class="btn btn-primary">
+        <label class="btn btn-outline-primary">
           Upload a main image file <%= f.file_field :main_image, style: 'display:none;' %>
         </label>
       </div>
 
       <div class="form-group">
-        <label class="btn btn-primary">
+        <label class="btn btn-outline-primary">
           Upload a thumb image file <%= f.file_field :thumb_image, style: 'display:none;' %>
         </label>
       </div>
@@ -53,7 +53,7 @@
     </div>
 
     <div class="form-group">
-      <%= f.submit 'Save Portfolio Item', class: 'btn btn-primary btn-block' %>
+      <%= f.submit 'Save Portfolio Item', class: 'btn btn-success btn-block' %>
     </div>
   </div>
 <% end %>
