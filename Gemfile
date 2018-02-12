@@ -71,5 +71,5 @@ gem 'gritter', '~> 1.2'
 # Adds Growl-like alert notices
 gem 'twitter', '~> 6.2'
 # Adds connection to twitter
-gem 'redis', '~> 4.0', '>= 4.0.1'
-# Ability to persist caches
+gem 'redis', '~> 3.3', '>= 3.3.3'
+# Ability to persist caches (NoSQL Database) (For use with ActionCable)
