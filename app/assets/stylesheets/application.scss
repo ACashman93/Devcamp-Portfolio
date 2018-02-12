@@ -214,10 +214,11 @@ body {
 }
 
 .tech-news a {
-  color: blue;
+  color: green;
 }
 
 .tech-news > .card {
+  border: 4px solid #00aced;
   padding: 30px;
 }
 
