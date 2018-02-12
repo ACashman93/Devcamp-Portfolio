@@ -69,7 +69,6 @@ module ApplicationHelper
 
   def alert_generator msg
     js add_gritter(msg, title: "Andrew Cashman Portfolio", sticky: false, time:1500)
-
   end
 
 end
