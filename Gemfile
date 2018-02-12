@@ -69,3 +69,5 @@ gem 'cocoon', '~> 1.2', '>= 1.2.11'
 # Nested forms handling using jQuery
 gem 'gritter', '~> 1.2'
 # Adds Growl-like alert notices
+gem 'twitter', '~> 6.2'
+# Adds connection to twitter
