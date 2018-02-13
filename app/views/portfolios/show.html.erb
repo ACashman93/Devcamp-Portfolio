@@ -24,6 +24,7 @@
       <% if logged_in?(:site_admin) %>
       <div>
         <%= link_to "Edit Item", edit_portfolio_path(@portfolio_item), class: 'btn btn-success' %>
+        <%= link_to 'Destroy', @portfolio_item, method: :delete, class: 'btn btn-danger', data: { confirm: 'Are you sure?' } %>
       </div>
       <% end %>
     </div>
