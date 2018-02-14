@@ -1,0 +1,11 @@
+<div class="col-sm-8 blog-main">
+
+  <h1><%= @topic.title %></h1>
+  
+  <%= render @blogs %>
+
+  <%= paginate @blogs %>
+
+  <%= link_to 'Back', topics_path, class: "btn btn-outline-info btn-sm" %>
+
+</div>
