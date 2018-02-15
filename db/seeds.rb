@@ -53,6 +53,12 @@ end
 
 puts "3 technologies created"
 
+1.times do |guest_user|
+  User.create!(name:"Test User", email:"guest@guest_user.com", password:"123456", password_confirmation:"123456")
+end
+
+puts "Guest user created"
+
 1.times do |admin_user|
   User.create!(name:"Andrew Cashman", email:"test@test.com", password:"123456", password_confirmation:"123456", role:"site_admin")
 end
