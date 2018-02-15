@@ -1,4 +1,4 @@
-<div class="app-card-container">
+<div class="app-card-container about-card">
   <div class="card">
     <h1>About me</h1>
 
@@ -6,6 +6,7 @@
 
     <div class="row">
       <div class="col-md-4">
+
         <%= image_tag "_D850458.jpg", width: '100%', alt: "profile image" %>
 
         <div class="skills">
@@ -13,15 +14,13 @@
             <div class="skill">
               <h4><%= skill.title %></h4>
               <div class="progress">
-                  <div 
-                  class="progress-bar progress-bar-striped bg-warning"
-                  role="progressbar"
-                  aria-valuenow="<%= skill.percent_utilized %>"
-                  aria-valuemax="100"
-                  style="width: <%= skill.percent_utilized %>%"
-                  >
-                    
-                  </div>
+                <div 
+                class="progress-bar progress-bar-striped bg-warning"
+                role="progressbar"
+                aria-valuenow="<%= skill.percent_utilized %>"
+                aria-valuemax="100"
+                style="width: <%= skill.percent_utilized %>%"
+                ></div>
               </div>
             </div>
           <% end %>
@@ -29,7 +28,7 @@
       </div>
 
       <div class="col-md-8">
-        <p>I am fairly new to web development, but I love taking on challenges. </p>
+        <p>I am fairly new to web development, but I love taking on challenges.</p>
 
         <p>About me paragraph 2</p>
 
@@ -61,9 +60,11 @@
           <div class="collapse" id="jobHistory">
             <div class="card card-block">
               Job 1
-            </div><div class="card card-block">
+            </div>
+            <div class="card card-block">
               Job 2
-            </div><div class="card card-block">
+            </div>
+            <div class="card card-block">
               Job 3
             </div>
           </div>
@@ -71,9 +72,11 @@
           <div class="collapse" id="education">
             <div class="card card-block">
               School 1
-            </div><div class="card card-block">
+            </div>
+            <div class="card card-block">
               School 2
-            </div><div class="card card-block">
+            </div>
+            <div class="card card-block">
               School 3
             </div>
           </div>
