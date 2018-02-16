@@ -77,3 +77,5 @@ gem 'redcarpet', '~> 3.4'
 # Markdown to (X)HTML parser
 gem 'coderay', '~> 1.1', '>= 1.1.2'
 # Syntax highlighting for ruby
+
+ruby "2.4.0"
