@@ -194,6 +194,10 @@ h6, .h6 {
   float: none;
 }
 
+.app-nav {
+  color: white;
+}
+
 .app-nav span {
   margin-left: 10px;
   margin-right: 10px;
@@ -239,6 +243,8 @@ h6, .h6 {
 
 .app-card-container > .card {
   padding: 40px;
+  z-index: 1; 
+  position:relative;
 }
 
 .app-card-container a {
@@ -260,6 +266,25 @@ h6, .h6 {
   margin-bottom: 4.5rem;
 }
 
+.nav-color {
+  background-color: #F8F8FF;
+  margin-left: 6.5rem;
+}
 
+.masthead-brand {
+  margin-right: 12px;
+}
 
+.login-style {
+  color: white;
+  margin-left: 3px;
+}
 
+.about-me-body {
+  text-align: justify;
+}
+
+#education {
+  background-color: black;
+  color: white;
+}

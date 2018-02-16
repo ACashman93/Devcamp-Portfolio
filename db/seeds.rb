@@ -54,7 +54,7 @@ end
 puts "3 technologies created"
 
 1.times do |guest_user|
-  User.create!(name:"Test User", email:"guest@guest_user.com", password:"123456", password_confirmation:"123456")
+  User.create!(name:"Test User", email:"guest_user@guest.com", password:"123456", password_confirmation:"123456")
 end
 
 puts "Guest user created"
