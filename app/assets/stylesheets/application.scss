@@ -268,11 +268,13 @@ h6, .h6 {
 
 .nav-color {
   background-color: #F8F8FF;
+  width: 150px;
   position: relative;
 }
 
 .masthead-brand {
-  margin-right: 12px;
+  margin-right: 20px;
+  margin-left: -20px;
 }
 
 .login-style {
@@ -288,3 +290,8 @@ h6, .h6 {
   background-color: black;
   color: white;
 }
+
+
+
+
+
