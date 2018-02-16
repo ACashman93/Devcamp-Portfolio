@@ -1,18 +1,18 @@
 module ApplicationHelper
   def login_helper style = ''
     if current_user.is_a?(GuestUser)
-      (link_to "Register", new_user_registration_path, class: style) +
-      " ".html_safe +
-      (link_to "Login", new_user_session_path, class: style)
+      (link_to "Sign Up", new_user_registration_path, class: style) +
+      "&nbsp;".html_safe +
+      (link_to "Sign In", new_user_session_path, class: style)
     else
-      link_to "Logout", destroy_user_session_path, method: :delete, class: style
+      link_to "Sign Out", destroy_user_session_path, method: :delete, class: style
     end
   end
 
-  def source_helper(layout_name)
+  def source_helper(styles)
     if session[:source]
-      greeting = "Thanks for visiting me from #{session[:source]} and you are on the #{layout_name} layout"
-      content_tag(:p, greeting, class: "source-greeting")
+      greeting = "Thanks for visiting me from #{session[:source]}, please feel free to #{ link_to 'contact me', contact_path} if you'd like to work together."
+      content_tag(:p, greeting.html_safe, class: styles)
     end
   end
 

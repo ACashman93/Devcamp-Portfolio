@@ -73,3 +73,7 @@ gem 'twitter', '~> 6.2'
 # Adds connection to twitter
 gem 'redis', '~> 3.3', '>= 3.3.3'
 # Ability to persist caches (NoSQL Database) (For use with ActionCable)
+gem 'redcarpet', '~> 3.4'
+# Markdown to (X)HTML parser
+gem 'coderay', '~> 1.1', '>= 1.1.2'
+# Syntax highlighting for ruby
